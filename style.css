@@ -1,13 +1,12 @@
-        <style>
-            :root {
+:root {
                 --color-bg: #eaeaea;
                 --color-bg-nota: hsl(30, 5%, 85%);
                 --color-text: rgb(60, 60, 60);
                 --color-text-dark: rgb(30, 30, 30);
                 --color-text-light: rgba(90, 90, 90, 1);
                 --color-border: silver;
-                --font-sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+                --font-sans: "Alata", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                --font-serif: "Poltawski Nowy", Georgia, "Times New Roman", serif;
             }
 
             *,
@@ -230,4 +229,3 @@
                 font-weight: 700;
                 color: var(--color-text-light);
             }
-        </style>
