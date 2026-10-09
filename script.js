@@ -1,9 +1,8 @@
-       <script>
             const tbodyAmerica = document.querySelector("#america");
             const tbodyEuropa = document.querySelector("#europa");
             const tbodyOtros = document.querySelector("#otros");
 
-            const ENDPOINT = "…";
+            const ENDPOINT ="https://api.myjson.online/v1/records/7dbcd3bb-a192-45a2-aebc-10cbf713113c";
 
             const paisesAmerica = ["Argentina", "Brazil", "Canada", "Chile", "Colombia", "Mexico", "United States"];
             const paisesEuropa = ["Austria", "Belgium", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Ireland", "Italy", "Netherlands", "Sweden", "Switzerland", "United Kingdom"];
@@ -64,4 +63,3 @@
                 }
                 return "<span>" + visual + "</span>";
             }
-        </script>
